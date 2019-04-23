@@ -1,0 +1,347 @@
+@charset "UTF-8";
+*{
+box-sizing:border-box
+}
+body{font:1.06em/1.5 SourceSerifPro,serif;
+max-width:710px;
+margin:auto;
+padding:35px}
+.hidden{
+display:none
+}
+figure.c1,img.c1{
+max-width:177.5px
+}
+figure.c2,img.c2{
+max-width:355px
+}
+figure.c3,img.c3{
+max-width:532.5px
+}
+figure.c4,img.c4{
+max-width:639px
+}
+figure.c5,img.c5{
+width:100%
+}
+.left{text-align:left;
+margin:25px 25px 25px 0px}
+.right{text-align:left;
+margin:25px 0px 25px 25px}
+aside .left{text-align:left;
+margin:16px 16px 16px 0px}
+aside .right{text-align:left;
+margin:16px 0px 16px 16px}
+.a-head,.b-head,.c-head,.d-head{
+clear:both
+}
+.center{text-align:center;
+margin-left:auto;
+margin-right:auto}
+.main-flow{text-align:left;
+margin-left:auto;
+margin-right:auto}
+figure.left,img.left{
+float:left
+}
+figure.right,img.right{
+float:right
+}
+figure.c3,figure.c4,figure.c5,img.c3,img.c4,img.c5{float:none;
+clear:both}
+figure.intro{max-width:100%;
+margin-left:0;
+margin-right:0;
+border:0}
+aside.left{
+float:left
+}
+aside.right{
+float:right
+}
+aside.c3,aside.c4,aside.c5,div.c3,div.c4,div.c5,section.c3,section.c4,section.c5{max-width:100%;
+display:block}
+aside.c2,div.c2{
+max-width:50%
+}
+aside.c1,div.c1{
+max-width:30%
+}
+aside.bibliography,aside.footnotes,aside.ftnote,aside.glossary{
+border-width:0
+}
+* + p,figure + p,table + p,ul + p,ol + p,div + p,blockquote + p,nav + p,section + p,aside + p,header + p,p + p,section.copyright-page div.copyright,section.copyright-page div.productnumber,section.copyright-page div.publisher,* + section,table + ol,table + ul,* + aside,aside.bibliography * + ul,* + div,p.verse-stanza-start,figure,table,p + h1,p + h2,p + h3,p + h4,p + h5,p + h6,ol + h1,ol + h2,ol + h3,ol + h4,ol + h5,ol + h6,ul + h1,ul + h2,ul + h3,ul + h4,ul + h5,ul + h6,ul + header,ol + header,.frontmatter > .level1,p + figure,.backmatter > .level1,section.acknowledgments > .level1,section.foreword > .level1,section.introduction > .level1,section.preface > .level1,section.afterword > .level1,section.appendix > .level1,section.conclusion > .level1,section.prologue > .level1,section.epilogue > .level1,section.index > .level1,section.bibliography > .level1section.summary > .level1,section.summary > .level1,section.summary > header > .level1,section.end-of-section > .level1,.frontmatter > .level2,.backmatter > .level2,section.acknowledgments > .level2,section.foreword > .level2,section.introduction > .level2,section.preface > .level2,section.afterword > .level2,section.appendix > .level2,section.conclusion > .level2,section.prologue > .level2,section.epilogue > .level2,section.index > .level2,section.bibliography > .level2,section.summary > .level2,section.summary > header > .level2,section.end-of-section > .level2,.frontmatter .level3,.backmatter .level3,section.acknowledgments > .level3,section.foreword > .level3,section.introduction > .level3,section.preface > .level3,section.afterword > .level3,section.appendix > .level3,section.conclusion > .level3,section.prologue > .level3,section.epilogue > .level3,section.index > .level3,section.bibliography > .level3,section.summary > .level3,section.end-of-section > .level3{
+margin-top:25px
+}
+section.bibliography ul li.biblioentry,section.section-bibliography ul li.biblioentry,section.glossary dt,section li,aside p + p,li.question{
+margin-top:16px
+}
+p.eq-number,section.copyright-page p,figure.intro,nav li,section.toc-brief ul,section.toc-brief ol,section.toc ul,section.toc ol,section.toc-brief ul li,nav.toc-brief ul li,header > p.subtitle,section.toc ul li,section.toc ol li,aside dl.glossary,dl.glossary dt,dl.glossary dd,aside.glossary dt,ol.keywords li,ul.keywords li,aside.bibliography ul,p.verse,p.verse-stanza-start,img,figure,header,h1,h2,h3,h4,h5,h6,section > header > h5,ul > li > ol > li,ol > li > ol > li,ol > li > ul > li{margin-top:0;
+margin-bottom:0;
+padding:0}
+section.part > header > .title,section.chapter > header > .title{
+font:600 2.5em/1.1 SourceSerifPro,serif
+}
+.a-head{
+font:600 2.5em/1.1 SourceSansPro,sans-serif
+}
+section.toc > header > .title,section.toc-brief > header > .title,section.acknowledgments > header > .title,section.copyright-page > header > .title,section.dedication > header > .title,section.foreword > header > .title,section.halftitlepage > header > .title,section.introduction > header > .title,section.preface > header > .title,section.titlepage > header > .title,section.contributors > header > .title,section.afterword > header > .title,section.appendix > header > .title,section.conclusion > header > .title,section.prologue > header > .title,section.epilogue > header > .title,section.section-glossary > header > .title,section.glossary > header > .title,section.index > header > .title,section.bibliography > header > .title,section.section-bibliography > header > .title,section.end-of-section > header > .title,section.summary > header > .title,section.toc > header > .title.v1,section.toc-brief > header > .title.v1,section.acknowledgments > header > .title.v1,section.copyright-page > header > .title.v1,section.dedication > header > .title.v1,section.foreword > header > .title.v1,section.halftitlepage > header > .title.v1,section.introduction > header > .title.v1,section.preface > header > .title.v1,section.titlepage > header > .title.v1,section.contributors > header > .title.v1,section.afterword > header > .title.v1,section.appendix > header > .title.v1,section.conclusion > header > .title.v1,section.prologue > header > .title.v1,section.epilogue > header > .title.v1,section.section-glossary > header > .title.v1,section.glossary > header > .title.v1,section.index > header > .title.v1,section.bibliography > header > .title.v1,section.section-bibliography > header > .title.v1,section.end-of-section > header > .title.v1,section.assessments > header > .title,section.summary > header > .title.v1,section.summary > .title.v1,.a-head + p.subtitle,.b-head,aside.case-study > header > .title{
+font:600 2em/1.2 SourceSansPro,sans-serif
+}
+section.call-out-box > header > .title,section.practice > header > .title,section.learning-objectives > header > .title,section.learning-outcomes > header > .title,section.learning-resources > header > .title,section.learning-standards > header > .title,section.example > header > .title,section > section.example > header > .title,section > section > section.example > header > .title,section.reading > header > .title,section.student-writing > header > .title,aside.assessments > header > .title,aside.practice > header > .title,p.subtitle,.b-head + p.subtitle,.c-head,.frontmatter > .level1,.backmatter > .level1,section.acknowledgments > .level1,section.foreword > .level1,section.introduction > .level1,section.preface > .level1,section.afterword > .level1,section.appendix > .level1,section.conclusion > .level1,section.prologue > .level1,section.epilogue > .level1,section.index > .level1,section.index-group > header > .title,section.bibliography > .level1,section.bibliography > header > .level1,section.appendix-group > .title,section.summary > .level1,section.summary > div > header > .level1,section.end-of-section > .level1,aside > header > .title,aside.case-study > header > .level1,aside.case-study > .level1{
+font:600 1.5em/1.2 SourceSansPro,sans-serif
+}
+section.call-out-box > .level1,section.assessments > .level1,section.assessments > div > header > .level1,section.practice > .level1,section.practice > div > header > .level1,section > section > section > section.example > .level1,section > section > section.example > .level1,section > section.example > .level1,section.learning-objectives > .level1,section.learning-outcomes > .level1,section.learning-resources > .level1,section.learning-standards > .level1,section.example > .level1,section.example > header > .title + p.subtitle,section.example > div > header > .level1,section.reading > header > .title + p.subtitle,section.reading > div > header > .level1,aside.assessments > header > .level1,aside.practice > header > .level1,aside > .level1,aside.learning-objectives > header > .title,aside.learning-outcomes > header > .title,aside.learning-resources > header > .title,aside.learning-standards > header > .title,.c-head + p.subtitle,.frontmatter > .level1 + p.subtitle,.backmatter > .level1 + p.subtitle,section.acknowledgments > .level1 + p.subtitle,section.foreword > .level1 + p.subtitle,section.introduction > .level1 + p.subtitle,section.preface > .level1 + p.subtitle,section.afterword > .level1 + p.subtitle,section.appendix > .level1 + p.subtitle,section.conclusion > .level1 + p.subtitle,section.prologue > .level1 + p.subtitle,section.epilogue > .level1 + p.subtitle,section.index > .level1 + p.subtitle,section.bibliography > .level1 + p.subtitle,aside > header > .title + p.subtitle,aside > div > header > .level1,.d-head,.frontmatter > .level2,.backmatter > .level2,section.acknowledgments > .level2,section.foreword > .level2,section.introduction > .level2,section.preface > .level2,section.afterword > .level2,section.appendix > .level2,section.conclusion > .level2,section.prologue > .level2,section.epilogue > .level2,section.index > .level2,section.bibliography > .level2,section.summary > .level2,section.summary > header > .level2,section.end-of-section > .level2,aside.case-study > header > .level2,aside.case-study > .level2{
+font:600 1.25em/1.3 SourceSansPro,sans-serif
+}
+section.call-out-box > .level2,section.assessments > .level2,section.assessments > div > div > header > .level2,section.practice > .level2,section.practice > div > div > header > .level2,section.call-out-box > .level3,section.assessments > .level3,section.practice > .level3,section > section > section > section.example > .level2,section > section > section.example > .level2,section > section.example > .level2,section.example > .level2,section.example > div > div > header > .level2,section.reading > div > div > header > .level2,aside.assessments > header > .level2,aside.practice > header > .level2,aside > .level2,aside.assessments > header > .level3,aside.practice > header > .level3,aside > .level3,aside.learning-objectives > div > header > .level1,aside.learning-outcomes > div > header > .level1,aside.learning-resources > div > header > .level1aside.learning-standards > div > header > .title,.d-head + p.subtitle,aside > .level1 + p.subtitle,.frontmatter > .level2 + p.subtitle,.backmatter > .level2 + p.subtitle,section.acknowledgments > .level2 + p.subtitle,section.foreword > .level2 + p.subtitle,section.introduction > .level2 + p.subtitle,section.preface > .level2 + p.subtitle,section.afterword > .level2 + p.subtitle,section.appendix > .level2 + p.subtitle,section.conclusion > .level2 + p.subtitle,section.prologue > .level2 + p.subtitle,section.epilogue > .level2 + p.subtitle,section.index > .level2 + p.subtitle,section.bibliography > .level2 + p.subtitle,.e-head,aside > div > div > header > .level2,.frontmatter > .level3,.backmatter > .level3,section.acknowledgments > .level3,section.foreword > .level3,section.introduction > .level3,section.preface > .level3,section.afterword > .level3,section.appendix > .level3,section.conclusion > .level3,section.prologue > .level3,section.epilogue > .level3,section.index > .level3,section.bibliography > .level3,section.summary > .level3,section.summary > header > .level3,section.end-of-section > .level3,aside.case-study > header > .level3,aside.case-study > .level3{
+font:600 1.06em SourceSansPro,sans-serif
+}
+section.assessments,section.practice,aside.assessments,aside.practice{font:0.93em/1.5 SourceSansPro,sans-serif;
+box-sizing:border-box;
+padding:16px 16px 21px;
+border:1px solid #2c5e20}
+p{margin:0;
+padding:0;
+line-height:1.6}
+p.text-center{
+text-align:center
+}
+p.text-right{
+text-align:right
+}
+p.indent{
+text-indent:25px
+}
+p.eq-number{text-align:right;
+line-height:0}
+a,a:link,a:active,a:visited{color:#00758e;
+word-wrap:break-word}
+
+section.titlepage,section.halftitlepage{
+text-align:center
+}
+section.toc-brief a,section.toc-brief a:link,section.toc-brief a:active,section.toc-brief a:visited,section.toc a,section.toc a:link,section.toc a:active,section.toc a:visited{color:#00758e;
+text-decoration:underline}
+section.toc-brief a:hover,section.toc a:hover{
+text-decoration:underline
+}
+section{
+float:none
+}
+section.toc-brief ol,section.toc-brief ul,section.toc ol,section.toc ul{
+list-style:none
+}
+section.toc-brief ul,section.toc-brief ol,section.toc ul,section.toc ol{
+margin-left:30px
+}
+section.toc-brief > ul,section.toc-brief > ol,section.toc > ul,section.toc > ol{
+margin-bottom:25px
+}
+section.toc-brief ul li,section.toc-brief ol li,section.toc ul li,section.toc ol li{
+padding:3px 0
+}
+section.toc-brief ul ul,section.toc-brief ol ul,section.toc-brief ul ol,section.toc-brief ol ol,section.toc ul ul,section.toc ol ul,section.toc ul ol,section.toc ol ol{margin-top:3px;
+margin-bottom:0}
+dd{
+-webkit-margin-start:0
+}
+dl.glossary dt,dl.glossary dd{
+display:block
+}
+dl.glossary dt:after{
+content:":"
+}
+section.glossary{
+font-size:0.93em
+}
+section.glossary dt{
+font-family:SourceSerifPro,serif
+}
+section.glossary dd{
+font-family:SourceSansPro,sans-serif
+}
+li img{
+vertical-align:text-top
+}
+div{box-sizing:border-box;
+float:none}
+div.notes{padding:16px;
+font-family:SourceSansPro,sans-serif}
+div.notes.v1{border:2px solid #e0f1ff;
+padding:16px}
+div.notes.v2{border:2px solid #daf4d4;
+padding:16px}
+div.notes.v3{border:2px solid #ffe6fd;
+padding:16px}
+div.notes.v4{border:2px solid #ffe5d3;
+padding:16px}
+div.notes.v5{border:2px solid #ffe6f3;
+padding:16px}
+div.group.v1{background-color:#e0f1ff;
+padding:16px}
+div.group.v2{background-color:#daf4d4;
+padding:16px}
+div.group.v3{background-color:#ffe6fd;
+padding:16px}
+div.group.v4{background-color:#ffe5d3;
+padding:16px}
+div.group.v5{background-color:#ffe6f3;
+padding:16px}
+
+img{max-width:100%;
+max-height:100%}
+figure{background-color:#fff;
+max-width:710px;
+text-align:center;
+padding-bottom:0}
+figure.num,figure.table{
+border:1px solid #ddd
+}
+figure img.figure{display:block;
+margin-left:auto;
+margin-right:auto}
+figcaption{background-color:#eee;
+font:0.8em SourceSansPro,sans-serif;
+color:#686868;
+margin-top:0;
+padding:4px 15px 15px}
+figcaption p{margin-top:10px;
+text-align:left}
+figcaption span.label,figcaption span.ordinal,figcaption > p > span.label,figcaption > p > span.ordinal{font-weight:600;
+color:#080808}
+figcaption span.title,figcaption > p > span.title{font-weight:600;
+color:#080808}
+section.chapter > header + figure{margin-top:0;
+border-top-width:0}
+li figure{
+margin-bottom:25px;
+}
+img.decorative{max-height:25px;
+vertical-align:bottom}
+img.size-small{max-height:1em;
+padding:0 5px;
+vertical-align:middle}
+img.size-med{max-height:1.5em;
+padding:0 5px;
+vertical-align:middle}
+img.size-large{max-height:1.875em;
+padding:0 5px;
+vertical-align:middle}
+
+div.informalequation{
+font-family:STIX
+}
+span.math{
+font-family:STIX
+}
+span.chemistry{word-break:keep-all;
+white-space:nowrap}
+header{
+page-break-after:avoid
+}
+h1,h2,h3,h4,h5,h6{font-weight:400;
+font-family:SourceSansPro,sans-serif}
+
+section.part > header{background-color:#ddd;
+color:initial}
+section.part > header.v1{
+background-color:#e0f1ff
+}
+section.part > header.v2{
+background-color:#daf4d4
+}
+section.part > header.v3{
+background-color:#ffe6fd
+}
+section.part > header.v4{
+background-color:#ffe5d3
+}
+section.part > header.v5{
+background-color:#ffe6f3
+}
+section.chapter > header{background-color:#000;
+color:#f3f3f3}
+section.chapter > header.v1{
+background-color:#006eb8
+}
+section.chapter > header.v2{
+background-color:#2c5e20
+}
+section.chapter > header.v3{
+background-color:#865f7f
+}
+section.chapter > header.v4{
+background-color:#dd5714
+}
+section.chapter > header.v5{
+background-color:#882345
+}
+section.part > header,section.chapter > header{padding:25px;
+position:relative;
+width:100%;
+box-sizing:border-box}
+p.subtitle{
+padding-top:0
+}
+section.part > header > .title + p.subtitle{font:1.25em SourceSerifPro,serif;
+margin-top:30px;
+margin-bottom:0}
+section.chapter > header > .title + p.subtitle{font:1.25em SourceSerifPro,serif;
+color:#f3f3f3;
+margin-top:30px;
+margin-bottom:0}
+section.part > header > .title span.label,section.part > header > .title span.ordinal,section.chapter > header > .title span.label,section.chapter > header > .title span.ordinal{font:16px SourceSansPro,sans-serif;
+text-transform:uppercase;
+letter-spacing:0.25em}
+section.part > header > .title span.title,section.chapter > header > .title span.title{
+display:block
+}
+h1.v1,h2.v1,h3.v1,h4.v1,h5.v1,h6.v1{
+color:#006eb8
+}
+h1.v2,h2.v2,h3.v2,h4.v2,h5.v2,h6.v2{
+color:#2c5e20
+}
+h1.v3,h2.v3,h3.v3,h4.v3,h5.v3,h6.v3{
+color:#865f7f
+}
+h1.v4,h2.v4,h3.v4,h4.v4,h5.v4,h6.v4{
+color:#dd5714
+}
+h1.v5,h2.v5,h3.v5,h4.v5,h5.v5,h6.v5{
+color:#882345
+}
+div.group.right{float:right;
+clear:both}
+@media (min-width:711px){
+.c1{max-width:177.5px
+}
+.c2{
+max-width:355px
+}
+.c3{
+max-width:532.5px
+}
+.c4{
+max-width:639px
+}
+}@media (min-width:500px) and (max-width:710px){
+.c1{max-width:177.5px
+}
+.c2{
+max-width:262.7px
+}
+.c3{
+max-width:404.7px
+}
+.c4{
+max-width:546.7px
+}
+.left,.right,div.group.right{
+float:none
+}
+}
+li > img{
+padding-bottom:1.5em
+}
